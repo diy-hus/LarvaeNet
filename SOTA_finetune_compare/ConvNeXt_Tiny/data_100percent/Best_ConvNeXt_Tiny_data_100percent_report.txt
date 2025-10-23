@@ -1,0 +1,28 @@
+--- Best (Epoch 77) ---
+Accuracy: 0.9288
+Precision_micro: 0.9288
+Precision_macro: 0.9277
+Precision_w: 0.9295
+Recall_micro: 0.9288
+Recall_macro: 0.9212
+Recall_w: 0.9288
+F1_micro: 0.9288
+F1_macro: 0.9241
+F1_w: 0.9289
+AUC_macro_ovr: 0.0000
+
+--- Classification Report ---
+                       precision    recall  f1-score   support
+
+  Gryllus_bimaculatus     0.9868    0.9816    0.9842       380
+   Gryllus_campestris     0.9838    0.9907    0.9873       430
+          Halyomorpha     0.8468    0.9000    0.8726       430
+Melolontha_melolontha     0.9977    1.0000    0.9988       430
+                Myzus     0.9417    0.8818    0.9108       220
+               Nezara     0.8671    0.8651    0.8661       430
+         Trialeurodes     0.8942    0.8857    0.8900       210
+                 Tuta     0.9030    0.8643    0.8832       280
+
+             accuracy                         0.9288      2810
+            macro avg     0.9277    0.9212    0.9241      2810
+         weighted avg     0.9295    0.9288    0.9289      2810
